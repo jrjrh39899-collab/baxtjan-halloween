@@ -37,11 +37,11 @@ export default function Closing() {
           Happy Halloween, Baxtjan! 🎃
         </h3>
         <p className="text-sm sm:text-base text-purple-200/80 font-cormorant italic max-w-md mx-auto mb-8">
-          «The best teachers teach from the heart, not just from the book.»
+          «Stay legendary, keep shining, and enjoy every single moment!»
         </p>
 
         <div className="text-xs text-purple-400/60 font-mono tracking-wider">
-          Made with admiration & respect • 2026
+          Made with respect & warm vibes • Halloween 2026
         </div>
       </div>
     </footer>

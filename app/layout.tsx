@@ -23,8 +23,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Happy Halloween, Mr. Baxtjan! 🎃 The Best English Teacher",
-  description: "Особенное хеллоуинское поздравление для самого клёвого учителя английского языка — Бахтжана!",
+  title: "Happy Halloween, Baxtjan! 🎃 Have a Spooktacular Night",
+  description: "Особенное хеллоуинское поздравление для Бахтжана! Классного настроения, кайфа и побед!",
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎃</text></svg>",
   },

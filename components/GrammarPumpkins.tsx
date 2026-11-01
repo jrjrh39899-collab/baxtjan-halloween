@@ -6,34 +6,34 @@ import { motion, AnimatePresence } from "framer-motion";
 const pumpkins = [
   {
     id: 1,
-    title: "Present Perfect",
-    badge: "Grammar Master",
-    joke: "«I have never seen such a clear explanation!»",
-    translation: "За все годы никто не объяснял времена так доступно и логично.",
+    title: "Большой Успех",
+    badge: "Big Ambitions",
+    joke: "«Пусть все твои планы и идеи выстреливают на 1000%!»",
+    translation: "Хеллоуинские духи сулят мощный прорыв во всех начинаниях и проектах.",
     glowColor: "#FF6B2B",
   },
   {
     id: 2,
-    title: "Conditional Magic",
-    badge: "Topic Clarity",
-    joke: "«If you attend Baxtjan's classes, you will achieve C1 fluency!»",
-    translation: "100% реальное условие, проверенное на практике каждым его учеником.",
+    title: "Финансовый Поток",
+    badge: "Wealth & Growth",
+    joke: "«Пусть кошелёк ломится от приятных сумм, а доходы растут сами собой!»",
+    translation: "Лёгких денег, выгодных предложений и жизни в полном кайфе и достатке.",
     glowColor: "#F5C842",
   },
   {
     id: 3,
-    title: "Passive Voice",
-    badge: "The Solver",
-    joke: "«All grammar fears were destroyed by Baxtjan!»",
-    translation: "Все сомнения и языковые барьеры были стёрты в порошок.",
+    title: "Крепкое Здоровье",
+    badge: "Peak Energy",
+    joke: "«Железного здоровья, вечной бодрости и бесконечного запаса сил!»",
+    translation: "Чтобы каждый день начинался с улыбки, а усталость обходила стороной.",
     glowColor: "#9B5CF6",
   },
   {
     id: 4,
-    title: "Idiom of the Night",
-    badge: "Native Vibe",
-    joke: "«Over the moon — that's how we feel after your lessons!»",
-    translation: "На седьмом небе от счастья, когда наконец понял то, что казалось невозможным.",
+    title: "Верные Люди",
+    badge: "Inner Circle",
+    joke: "«Пусть рядом всегда будут только надёжные, преданные и крутые люди!»",
+    translation: "Окружение, с которым можно разделить любой триумф и любую победу.",
     glowColor: "#34D399",
   },
 ];
@@ -48,10 +48,10 @@ export default function GrammarPumpkins() {
           Interactive Pumpkins
         </span>
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-cinzel text-glow-orange text-white font-bold mt-2">
-          Тыквы Английской Грамматики 🎃
+          Тыквы Хеллоуинских Пожеланий 🎃✨
         </h2>
         <p className="text-purple-200/80 max-w-lg mx-auto mt-3 text-sm sm:text-base">
-          Нажми на тыкву, чтобы зажечь её и открыть хеллоуинскую формулу от Бахтжана
+          Нажми на тыкву, чтобы зажечь её и открыть праздничное пожелание для Бахтжана
         </p>
       </div>
 
@@ -83,15 +83,12 @@ export default function GrammarPumpkins() {
                     isSelected ? "filter drop-shadow-[0_0_12px_#FF6B2B]" : "opacity-75"
                   }`}
                 >
-                  {/* Stem */}
                   <path d="M 47 18 Q 48 6 58 10 Q 54 18 50 20 Z" fill="#4E8752" />
-                  {/* Pumpkin Body */}
                   <ellipse cx="50" cy="58" rx="38" ry="32" fill={isSelected ? "#E65100" : "#7C320A"} />
                   <ellipse cx="36" cy="58" rx="26" ry="30" fill={isSelected ? "#F57C00" : "#8D3B0E"} />
                   <ellipse cx="64" cy="58" rx="26" ry="30" fill={isSelected ? "#F57C00" : "#8D3B0E"} />
                   <ellipse cx="50" cy="58" rx="18" ry="29" fill={isSelected ? "#FFA726" : "#A04512"} />
 
-                  {/* Face */}
                   <polygon
                     points="34,48 42,48 38,40"
                     fill={isSelected ? "#FFF3B0" : "#240E04"}

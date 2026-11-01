@@ -47,9 +47,9 @@ export default function Hero() {
         className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-orange-500/30 text-orange-300 text-xs sm:text-sm font-medium mb-6 shadow-[0_0_20px_rgba(255,107,43,0.25)]"
       >
         <span className="text-base">🎃</span>
-        <span>Spooktacular Halloween Edition</span>
+        <span>Spooktacular Halloween Edition 2026</span>
         <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
-        <span className="text-purple-300 font-semibold">Teacher of the Year</span>
+        <span className="text-purple-300 font-semibold">C1 Advanced Vibe</span>
       </motion.div>
 
       {/* Main Title */}
@@ -60,13 +60,13 @@ export default function Hero() {
         className="max-w-4xl mx-auto"
       >
         <h2 className="text-xs sm:text-sm tracking-[0.35em] text-purple-300 uppercase font-medium mb-3">
-          Happy Halloween, Dear Teacher!
+          Happy Halloween, Mr. Baxtjan!
         </h2>
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tight font-cinzel text-glow-orange text-transparent bg-clip-text bg-gradient-to-b from-[#FFF2DE] via-[#FF8A3D] to-[#FF4500] leading-[1.05] mb-4">
           BAXTJAN
         </h1>
         <p className="font-cormorant italic text-2xl sm:text-3xl md:text-4xl text-amber-200/90 font-light mb-6">
-          The Master of English & The Coolest Explainer 🪄
+          Have a Spooktacular & Legendary Night! 🎃✨
         </p>
       </motion.div>
 
@@ -77,9 +77,9 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="max-w-2xl mx-auto text-base sm:text-lg text-[#D8CEE8] leading-relaxed mb-10 font-normal px-2"
       >
-        В ночь Хеллоуина даже призраки повторяют <span className="text-orange-400 font-semibold">Irregular Verbs</span> и учат времена!
-        Спасибо вам за то, что на ваших уроках любая сложная тема становится ясной как день.
-        Вы делаете английский по-настоящему живым, лёгким и кайфовым!
+        С Хеллоуином, Бахтжан! Пусть эта волшебная и мистическая ночь принесёт море отличного настроения,
+        ярких эмоций и безумного фарта во всех делах! Ты по-настоящему клёвый и харизматичный человек,
+        с которым всегда легко и приятно. Желаю огненного праздника, мощного кайфа и только приятных сюрпризов!
       </motion.p>
 
       {/* Stat Pills */}
@@ -91,10 +91,10 @@ export default function Hero() {
       >
         <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
           <div className="flex items-center justify-center text-orange-400 mb-1 text-xl">
-            🎓
+            🎃
           </div>
           <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">100%</div>
-          <div className="text-xs text-purple-200/80">Понятность тем</div>
+          <div className="text-xs text-purple-200/80">Праздничный вайб</div>
         </div>
 
         <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
@@ -102,15 +102,15 @@ export default function Hero() {
             🔥
           </div>
           <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">C1 Level</div>
-          <div className="text-xs text-purple-200/80">Advanced English</div>
+          <div className="text-xs text-purple-200/80">Advanced Mindset</div>
         </div>
 
         <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
           <div className="flex items-center justify-center text-purple-400 mb-1 text-xl">
-            ✨
+            ⚡
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">0%</div>
-          <div className="text-xs text-purple-200/80">Скуки на уроках</div>
+          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">24 / 7</div>
+          <div className="text-xs text-purple-200/80">Неиссякаемая энергия</div>
         </div>
 
         <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
@@ -118,7 +118,7 @@ export default function Hero() {
             ⭐
           </div>
           <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">Top 1</div>
-          <div className="text-xs text-purple-200/80">Любимый учитель</div>
+          <div className="text-xs text-purple-200/80">Клёвый человек</div>
         </div>
       </motion.div>
     </section>
