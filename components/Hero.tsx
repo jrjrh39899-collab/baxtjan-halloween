@@ -101,8 +101,8 @@ export default function Hero() {
           <div className="flex items-center justify-center text-amber-400 mb-1 text-xl">
             🔥
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">C2 Level</div>
-          <div className="text-xs text-purple-200/80">Энергия уроков</div>
+          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">C1 Level</div>
+          <div className="text-xs text-purple-200/80">Advanced English</div>
         </div>
 
         <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
