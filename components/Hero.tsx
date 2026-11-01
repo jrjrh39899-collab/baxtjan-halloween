@@ -59,13 +59,13 @@ export default function Hero() {
         transition={{ duration: 0.9, delay: 0.15 }}
         className="max-w-4xl mx-auto"
       >
-        <h2 className="text-xs sm:text-sm tracking-[0.35em] text-purple-300 uppercase font-medium mb-3">
+        <h2 className="text-[11px] sm:text-sm tracking-[0.25em] sm:tracking-[0.35em] text-purple-300 uppercase font-medium mb-3">
           Happy Halloween, Mr. Baxtjan!
         </h2>
-        <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tight font-cinzel text-glow-orange text-transparent bg-clip-text bg-gradient-to-b from-[#FFF2DE] via-[#FF8A3D] to-[#FF4500] leading-[1.05] mb-4">
+        <h1 className="text-4xl sm:text-7xl md:text-8xl font-black tracking-tight font-cinzel text-glow-orange text-transparent bg-clip-text bg-gradient-to-b from-[#FFF2DE] via-[#FF8A3D] to-[#FF4500] leading-[1.1] sm:leading-[1.05] mb-4">
           MR. BAXTJAN
         </h1>
-        <p className="font-cormorant italic text-2xl sm:text-3xl md:text-4xl text-amber-200/90 font-light mb-6">
+        <p className="font-cormorant italic text-xl sm:text-3xl md:text-4xl text-amber-200/90 font-light mb-6">
           Have a Spooktacular & Legendary Night! 🎃✨
         </p>
       </motion.div>
@@ -75,7 +75,7 @@ export default function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="max-w-2xl mx-auto text-base sm:text-lg text-[#D8CEE8] leading-relaxed mb-10 font-normal px-2"
+        className="max-w-2xl mx-auto text-sm sm:text-lg text-[#D8CEE8] leading-relaxed mb-8 sm:mb-10 font-normal px-2"
       >
         С Хеллоуином, Mr. Baxtjan! Пусть эта волшебная и мистическая ночь принесёт море отличного настроения,
         ярких эмоций и безумного фарта во всех делах! Вы по-настоящему клёвый и харизматичный человек,
@@ -87,38 +87,38 @@ export default function Hero() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.45 }}
-        className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 max-w-3xl w-full"
+        className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-4 max-w-3xl w-full"
       >
-        <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
-          <div className="flex items-center justify-center text-orange-400 mb-1 text-xl">
+        <div className="glass p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
+          <div className="flex items-center justify-center text-orange-400 mb-1 text-lg sm:text-xl">
             🎃
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">100%</div>
-          <div className="text-xs text-purple-200/80">Праздничный вайб</div>
+          <div className="text-lg sm:text-2xl font-bold font-cinzel text-white">100%</div>
+          <div className="text-[11px] sm:text-xs text-purple-200/80">Праздничный вайб</div>
         </div>
 
-        <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
-          <div className="flex items-center justify-center text-amber-400 mb-1 text-xl">
+        <div className="glass p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
+          <div className="flex items-center justify-center text-amber-400 mb-1 text-lg sm:text-xl">
             🔥
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">C1 Level</div>
-          <div className="text-xs text-purple-200/80">Advanced Mindset</div>
+          <div className="text-lg sm:text-2xl font-bold font-cinzel text-white">C1 Level</div>
+          <div className="text-[11px] sm:text-xs text-purple-200/80">Advanced Mindset</div>
         </div>
 
-        <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
-          <div className="flex items-center justify-center text-purple-400 mb-1 text-xl">
+        <div className="glass p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
+          <div className="flex items-center justify-center text-purple-400 mb-1 text-lg sm:text-xl">
             ⚡
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">24 / 7</div>
-          <div className="text-xs text-purple-200/80">Неиссякаемая энергия</div>
+          <div className="text-lg sm:text-2xl font-bold font-cinzel text-white">24 / 7</div>
+          <div className="text-[11px] sm:text-xs text-purple-200/80">Неиссякаемая энергия</div>
         </div>
 
-        <div className="glass p-4 rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
-          <div className="flex items-center justify-center text-emerald-400 mb-1 text-xl">
+        <div className="glass p-3 sm:p-4 rounded-xl sm:rounded-2xl border border-purple-500/20 text-center hover:border-orange-500/40 transition-colors">
+          <div className="flex items-center justify-center text-emerald-400 mb-1 text-lg sm:text-xl">
             ⭐
           </div>
-          <div className="text-xl sm:text-2xl font-bold font-cinzel text-white">Top 1</div>
-          <div className="text-xs text-purple-200/80">Клёвый человек</div>
+          <div className="text-lg sm:text-2xl font-bold font-cinzel text-white">Top 1</div>
+          <div className="text-[11px] sm:text-xs text-purple-200/80">Клёвый человек</div>
         </div>
       </motion.div>
     </section>
