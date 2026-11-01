@@ -63,7 +63,7 @@ export default function Hero() {
           Happy Halloween, Mr. Baxtjan!
         </h2>
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tight font-cinzel text-glow-orange text-transparent bg-clip-text bg-gradient-to-b from-[#FFF2DE] via-[#FF8A3D] to-[#FF4500] leading-[1.05] mb-4">
-          BAXTJAN
+          MR. BAXTJAN
         </h1>
         <p className="font-cormorant italic text-2xl sm:text-3xl md:text-4xl text-amber-200/90 font-light mb-6">
           Have a Spooktacular & Legendary Night! 🎃✨
@@ -77,8 +77,8 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 0.3 }}
         className="max-w-2xl mx-auto text-base sm:text-lg text-[#D8CEE8] leading-relaxed mb-10 font-normal px-2"
       >
-        С Хеллоуином, Бахтжан! Пусть эта волшебная и мистическая ночь принесёт море отличного настроения,
-        ярких эмоций и безумного фарта во всех делах! Ты по-настоящему клёвый и харизматичный человек,
+        С Хеллоуином, Mr. Baxtjan! Пусть эта волшебная и мистическая ночь принесёт море отличного настроения,
+        ярких эмоций и безумного фарта во всех делах! Вы по-настоящему клёвый и харизматичный человек,
         с которым всегда легко и приятно. Желаю огненного праздника, мощного кайфа и только приятных сюрпризов!
       </motion.p>
 

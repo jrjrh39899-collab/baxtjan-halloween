@@ -31,7 +31,7 @@ export default function WishesSection() {
           Тёплые Пожелания в Ночь Хеллоуина 🕯️
         </h2>
         <p className="text-purple-200/80 max-w-xl mx-auto mt-3 text-sm sm:text-base">
-          Бахтжану — человеку с большим сердцем, острым умом и крутой энергетикой
+          Mr. Baxtjan-у — человеку с большим сердцем, острым умом и крутой энергетикой
         </p>
       </div>
 

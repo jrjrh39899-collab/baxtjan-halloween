@@ -34,7 +34,7 @@ export default function Closing() {
         </button>
 
         <h3 className="text-3xl sm:text-4xl font-cinzel text-glow-orange text-white font-bold mb-4">
-          Happy Halloween, Baxtjan! 🎃
+          Happy Halloween, Mr. Baxtjan! 🎃
         </h3>
         <p className="text-sm sm:text-base text-purple-200/80 font-cormorant italic max-w-md mx-auto mb-8">
           «Stay legendary, keep shining, and enjoy every single moment!»

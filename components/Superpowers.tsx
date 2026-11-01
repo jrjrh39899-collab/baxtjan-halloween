@@ -64,7 +64,7 @@ export default function Superpowers() {
           transition={{ delay: 0.1 }}
           className="text-3xl sm:text-4xl md:text-5xl font-cinzel text-glow-gold text-white font-bold"
         >
-          Почему Бахтжан — Легенда 🪄
+          Почему Mr. Baxtjan — Легенда 🪄
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

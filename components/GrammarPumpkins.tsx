@@ -51,7 +51,7 @@ export default function GrammarPumpkins() {
           Тыквы Хеллоуинских Пожеланий 🎃✨
         </h2>
         <p className="text-purple-200/80 max-w-lg mx-auto mt-3 text-sm sm:text-base">
-          Нажми на тыкву, чтобы зажечь её и открыть праздничное пожелание для Бахтжана
+          Нажми на тыкву, чтобы зажечь её и открыть праздничное пожелание для Mr. Baxtjan-а
         </p>
       </div>
 
