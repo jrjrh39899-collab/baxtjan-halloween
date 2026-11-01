@@ -8,7 +8,7 @@ const traits = [
     title: "Мощная Харизма",
     subtitle: "Natural Leader",
     description:
-      "Умение создавать вокруг себя лёгкую, уверенную и классную атмосферу. С тобой всегда комфортно, интересно и приятно общаться.",
+      "Умение создавать вокруг себя лёгкую, уверенную и классную атмосферу. С Вами всегда комфортно, интересно и приятно общаться.",
     color: "from-orange-500/20 to-amber-500/10",
     border: "border-orange-500/30",
     glow: "hover:shadow-[0_0_25px_rgba(255,107,43,0.35)]",
@@ -38,7 +38,7 @@ const traits = [
     title: "Свой в Доску & Респект",
     subtitle: "Pure Character",
     description:
-      "Искренность, отличное чувство юмора и человечность, за которые тебя уважают, ценят и всегда рады видеть.",
+      "Искренность, отличное чувство юмора и человечность, за которые Вас уважают, ценят и всегда рады видеть.",
     color: "from-emerald-500/20 to-teal-500/10",
     border: "border-emerald-500/30",
     glow: "hover:shadow-[0_0_25px_rgba(52,211,153,0.35)]",
@@ -73,7 +73,7 @@ export default function Superpowers() {
           transition={{ delay: 0.2 }}
           className="text-purple-200/80 max-w-xl mx-auto mt-4 text-sm sm:text-base"
         >
-          Качества, за которые тебя искренне уважают и ценят
+          Качества, за которые Вас искренне уважают и ценят
         </motion.p>
       </div>
 
